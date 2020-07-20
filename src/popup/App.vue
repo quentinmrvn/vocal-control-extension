@@ -13,6 +13,7 @@
 
 <script>
 const browser = require("webextension-polyfill");
+
 export default {
   data() {
     return {
@@ -51,14 +52,14 @@ $secondaryColor: #3ea37b;
     line-height: 50px;
     transition: all linear 0.2s;
     border: none;
+    border-radius: 10px;
     cursor: pointer;
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 800;
 
     &:hover {
-      background-color: $mainColor;
-      color: $secondaryColor;
+      box-shadow: 0px 15px 21px -11px rgba(0,0,0,0.38);
     }
   }
   &-listener {
