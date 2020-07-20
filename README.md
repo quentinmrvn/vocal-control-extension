@@ -1,1 +1,3 @@
-# vocal-control-extension
+# Vocal control extension
+
+### Vue JS vocal control Chrome extension
